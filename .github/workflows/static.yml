@@ -40,7 +40,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload only the dist folder
-          path: 'dist'
+          path: 'sooner-free-lite'
 
       - name: Deploy to GitHub Pages
         id: deployment
